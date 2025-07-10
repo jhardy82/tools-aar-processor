@@ -1,0 +1,64 @@
+# Sacred Geometry AAR Processor Requirements
+# Core-Framework Container Dependencies
+
+# Core web framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.2
+
+# Async HTTP client for monitoring integration
+aiohttp==3.9.1
+
+# Structured logging
+structlog==23.2.0
+
+# Database connectivity
+psycopg2-binary==2.9.9
+sqlalchemy==2.0.23
+alembic==1.13.1
+
+# Monitoring and metrics integration
+prometheus-client==0.19.0
+requests==2.31.0
+httpx==0.25.2
+
+# Data processing and analysis
+pandas==2.1.4
+numpy==1.25.2
+scipy==1.11.4
+
+# Sacred Geometry mathematical libraries
+sympy==1.12
+matplotlib==3.8.2
+
+# Configuration and environment
+python-dotenv==1.0.0
+pyyaml==6.0.1
+rich==13.7.0
+
+# Testing framework
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+
+# Container health and utilities
+psutil==5.9.6
+asyncio-mqtt==0.13.0
+
+# AAR specific libraries
+jinja2==3.1.2
+markdown==3.5.1
+reportlab==4.0.7
+
+# Sacred Geometry pattern libraries
+networkx==3.2.1
+pillow==10.1.0
+
+# Security and authentication
+cryptography==41.0.7
+passlib[bcrypt]==1.7.4
+
+# Development utilities
+black==23.11.0
+isort==5.12.0
+mypy==1.7.1
