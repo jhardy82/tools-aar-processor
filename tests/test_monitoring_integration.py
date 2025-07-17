@@ -326,7 +326,7 @@ class TestMonitoringIntegration:
         assert "360°" in context["circle"]
         assert "Three-tier" in context["triangle"]
         assert "Progressive" in context["spiral"]
-        assert "φ = 1.618" in context["golden_ratio"]
+        assert "φ = PHI" in context["golden_ratio"]
         assert "Self-similar" in context["fractal"]
 
     @pytest.mark.asyncio

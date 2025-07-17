@@ -941,7 +941,7 @@ class AARGenerator:
         """Apply Golden Ratio proportioning to report sections"""
         # This is a simplified implementation
         # In practice, this would adjust section sizes and organization
-        phi = 1.618033988749895
+        phi = PHI
 
         enhanced_report = report.copy()
         enhanced_report["_sacred_geometry_metadata"] = {

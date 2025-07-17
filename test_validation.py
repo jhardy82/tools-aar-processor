@@ -159,7 +159,7 @@ def main():
     print("-" * 40)
 
     sacred_geometry_tests = [
-        ("Golden Ratio (φ)", "✅ Mathematical accuracy: φ = 1.618033988749895"),
+        ("Golden Ratio (φ)", "✅ Mathematical accuracy: φ = PHI"),
         ("Circle Patterns", "✅ Completeness and closure validation"),
         ("Triangle Patterns", "✅ Stability and foundation testing"),
         ("Spiral Patterns", "✅ Growth and progression validation"),

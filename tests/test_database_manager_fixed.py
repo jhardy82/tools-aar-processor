@@ -203,7 +203,7 @@ class TestDatabaseManager:
         pattern_data = {
             "pattern_name": "golden_ratio",
             "compliance_score": 0.92,
-            "pattern_details": {"ratio": 1.618, "balance": 0.95, "harmony": 0.88},
+            "pattern_details": {"ratio": PHI, "balance": 0.95, "harmony": 0.88},
             "recommendations": ["maintain ratio", "improve balance"],
         }
 

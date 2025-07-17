@@ -22,7 +22,7 @@ class TestSacredGeometryEngine:
     def test_engine_initialization(self, engine):
         """Test engine initialization"""
         assert not engine.is_initialized
-        assert abs(engine.phi - 1.618033988749895) < 1e-10
+        assert abs(engine.phi - PHI) < 1e-10
         assert isinstance(engine.patterns, dict)
 
         expected_patterns = ["circle", "triangle", "spiral", "golden_ratio", "fractal"]
@@ -101,7 +101,7 @@ class TestSacredGeometryEngine:
 
         growth_data = {
             "iterations": [0.1, 0.2, 0.35, 0.55, 0.8],
-            "growth_rate": 1.618,  # Golden ratio growth
+            "growth_rate": PHI,  # Golden ratio growth
             "progression": "ascending",
         }
 
@@ -116,7 +116,7 @@ class TestSacredGeometryEngine:
         ratio_data = {
             "primary_metric": 161.8,
             "secondary_metric": 100.0,
-            "ratio": 1.618,
+            "ratio": PHI,
             "tolerance": 0.01,
         }
 

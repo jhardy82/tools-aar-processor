@@ -198,7 +198,7 @@ class TestSacredGeometryEngineCorrect:
                 "patterns": ["circle", "triangle", "spiral"],
             },
             "measurements": {
-                "ratios": [1.0, 1.618, 2.618],
+                "ratios": [1.0, PHI, PHI_SQUARED],
                 "angles": [60, 90, 120, 180, 360],
                 "nested_levels": 3,
             },

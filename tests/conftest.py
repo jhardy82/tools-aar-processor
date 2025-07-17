@@ -212,8 +212,8 @@ def valid_sacred_geometry_data():
             "stability": 0.88,
             "components": ["input", "processing", "output"],
         },
-        "spiral": {"progression": 0.92, "iterations": 5, "enhancement_factor": 1.618},
-        "golden_ratio": {"proportion": 1.618, "optimization_score": 0.89},
+        "spiral": {"progression": 0.92, "iterations": 5, "enhancement_factor": PHI},
+        "golden_ratio": {"proportion": PHI, "optimization_score": 0.89},
         "fractal": {"self_similarity": 0.83, "scales": 3, "recursion_depth": 4},
     }
 

@@ -7,7 +7,7 @@ This module implements the fundamental Sacred Geometry patterns:
 - Circle: Complete functionality, proper error handling
 - Triangle: Stable architecture with three-tier validation
 - Spiral: Progressive enhancement and iterative improvement
-- Golden Ratio: Optimal proportions in API design (φ = 1.618)
+- Golden Ratio: Optimal proportions in API design (φ = PHI)
 - Fractal: Self-similar patterns at multiple scales
 """
 
@@ -26,7 +26,7 @@ class SacredGeometryEngine:
     """Core Sacred Geometry processing engine"""
 
     def __init__(self):
-        self.phi = (1 + math.sqrt(5)) / 2  # Golden Ratio φ = 1.618...
+        self.phi = (1 + math.sqrt(5)) / 2  # Golden Ratio φ = PHI...
         self.is_initialized = False
         self.patterns = {
             "circle": self._circle_pattern,
@@ -42,7 +42,7 @@ class SacredGeometryEngine:
 
         # Validate mathematical constants
         assert (
-            abs(self.phi - 1.618033988749895) < 1e-10
+            abs(self.phi - PHI) < 1e-10
         ), "Golden ratio calculation error"
 
         # Initialize pattern processors
@@ -69,7 +69,7 @@ class SacredGeometryEngine:
 
     def is_healthy(self) -> bool:
         """Check if Sacred Geometry engine is healthy"""
-        return self.is_initialized and abs(self.phi - 1.618033988749895) < 1e-10
+        return self.is_initialized and abs(self.phi - PHI) < 1e-10
 
     def validate_patterns(self, patterns: List[str]) -> bool:
         """Validate that requested patterns are supported"""
@@ -248,7 +248,7 @@ class SacredGeometryEngine:
     async def _golden_ratio_pattern(
         self, data: Dict, validate_only: bool = False
     ) -> Dict[str, Any]:
-        """Golden Ratio: Optimal proportions in API design (φ = 1.618)"""
+        """Golden Ratio: Optimal proportions in API design (φ = PHI)"""
         try:
             # Check proportional relationships in data structure
             proportion_score = self._analyze_proportional_relationships(data)

@@ -220,6 +220,6 @@ def get_sacred_geometry_context():
         "circle": "Complete monitoring coverage - 360° observability",
         "triangle": "Three-tier monitoring - Infrastructure, Application, Business",
         "spiral": "Progressive monitoring enhancement with iterative improvement",
-        "golden_ratio": "Optimal alert threshold ratios (φ = 1.618)",
+        "golden_ratio": "Optimal alert threshold ratios (φ = PHI)",
         "fractal": "Self-similar monitoring patterns at all scales",
     }

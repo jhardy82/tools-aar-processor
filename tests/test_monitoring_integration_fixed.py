@@ -168,7 +168,7 @@ class TestMonitoringIntegrationFixed:
         # Verify content contains expected patterns
         assert "360°" in context["circle"]
         assert "Three-tier" in context["triangle"]
-        assert "φ = 1.618" in context["golden_ratio"]
+        assert "φ = PHI" in context["golden_ratio"]
 
     @pytest.mark.asyncio
     async def test_private_method_prometheus_health(self):

@@ -43,7 +43,7 @@ class TestMonitoringIntegrationSimple:
         # Verify content contains expected patterns
         assert "360°" in context["circle"]
         assert "Three-tier" in context["triangle"]
-        assert "φ = 1.618" in context["golden_ratio"]
+        assert "φ = PHI" in context["golden_ratio"]
 
     def test_monitoring_urls_configuration(self):
         """Test that monitoring URLs are correctly configured"""

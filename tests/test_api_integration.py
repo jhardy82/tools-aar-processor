@@ -29,7 +29,7 @@ class TestAARProcessorAPI:
         assert "version" in data
         assert "sacred_geometry" in data
         assert data["sacred_geometry"]["phi"] == pytest.approx(
-            1.618033988749895, rel=1e-10
+            PHI, rel=1e-10
         )
 
     def test_generate_aar_endpoint(self, client):
